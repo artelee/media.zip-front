@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import {IndexRoute} from "./routes/IndexRoute";
 
 function App() {
-  return (
-        <Counter />
-  );
+    return (
+        <IndexRoute/>
+    );
 }
 
 export default App;
